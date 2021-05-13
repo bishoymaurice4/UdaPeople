@@ -1,0 +1,4 @@
+- name: Copy backend files
+  ansible.builtin.copy:
+    src: "../../backend/dist/"
+    dest: "~/web/"
